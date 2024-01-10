@@ -1,0 +1,85 @@
+body {
+
+    background-color: bisque;
+}
+.container {
+    width: 700px;
+    margin: 16px auto; 
+   }
+
+.logo
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    background-color: azure;
+    font-size: 32px;
+}
+
+.date
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(204, 29, 29);
+    font-size: 14px;
+
+}
+p
+{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: medium;
+
+}
+
+nav li {
+
+    display: inline-table;
+    margin-right: 16px;
+}
+
+nav ul
+{
+  padding-bottom: 0;
+}
+nav a 
+{
+  color: rgb(106, 16, 191);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:visited {
+   color: brown;
+   text-decoration: overline;
+}
+
+nav a:hover 
+{
+    color: orange;
+    text-decoration: underline;
+
+}
+
+article ul li:hover {
+
+    color: orange;
+}
+
+
+img {
+   width: 600px;
+   height: auto;
+} 
+footer
+ {
+background-color: rgb(14, 14, 14);
+   color:whitesmoke;
+   font-size: 16px;
+   padding-top: 16px;
+   padding-left: 24px;
+   padding-bottom: 16px;
+}
+footer table:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
