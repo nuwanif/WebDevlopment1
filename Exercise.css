@@ -2,6 +2,8 @@ body {
 
     background-color: bisque;
     border-bottom: 0cqmax;
+    background-image: url("image-background.jpg");
+    
 }
 .container {
     width: 700px;
@@ -55,14 +57,14 @@ nav a:visited {
 
 nav a:hover 
 {
-    color: orange;
+    color: blue;
     text-decoration: underline;
 
 }
 
 article ul li:hover {
 
-    color: orange;
+    color: blue;
 }
 
 article p blockquote {
